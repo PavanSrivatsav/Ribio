@@ -12,7 +12,7 @@ public class Test {
 		Class.forName("net.sourceforge.jtds.jdbc.Driver");
 		Connection conn = DriverManager
 				.getConnection("jdbc:jtds:sqlserver://localhost:1433;database=COSEC;instance=SQLEXPRESS");
-		System.out.println("connected to mssql");
+		System.out.println("connected to mssql hello hai");
 		Statement sta = conn.createStatement();
 		String Sql = "select * from Mx_VSTRTypeMst;";
 		System.out.println("---------------------");
